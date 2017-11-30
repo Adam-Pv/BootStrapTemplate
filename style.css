@@ -1,0 +1,70 @@
+
+.form-group .form-control {
+	max-width:570px;
+	margin: auto;
+}
+
+.para_container {
+	background-color: #FFFFFF;
+	opacity: 1;
+}
+
+.parallax-window{
+	width: 100%;
+	min-height: 400px;
+}
+
+
+#img_1 {
+    background-image: url(editedPICS/sailboat.png);
+	background-size: cover;
+	background-position: center;
+    width: 100%;
+	min-height: 400px;
+    position: fixed;
+    background-repeat: no-repeat;
+    z-index: -20;
+}
+
+
+.jumbotron {
+	margin-bottom: 0px !important;
+}
+
+body .well {
+	margin-bottom: 0px !important;
+}
+
+@media only screen and (min-width: 327px) and (max-width: 389px) {
+	body .btn-responsive {
+		padding: 6px 9px;
+		font-size: 12px;
+		line-height: 1.4;
+	}
+}
+
+@media only screen and (min-width: 390) and (max-width: 400px) {
+	body .btn-responsive {
+		padding: 7px 12px;
+		font-size: 13px;
+		line-height: 1.4;
+	}
+}
+@media only screen and (min-width: 401px) and (max-width: 700px) {
+	body .btn-responsive {
+		padding:8px 12px;
+		font-size:14px;
+		line-height: 1.4;
+	}
+}
+
+@media only screen and (min-width: 701px) {
+	body .btn-responsive {
+		padding:10px 16px;
+		font-size:18px;
+		line-height: 1.33;
+	}
+	.parallax-img {
+		min-height: 500;
+	}
+}
